@@ -29,7 +29,7 @@ const app = createApp({
                     // document.cookie 為儲存 cookie 的方法, 此為儲存 token 和 expired，hexToken 名稱可以自定義, new Date 為轉換為 unix timestamp 的格式
                     document.cookie = `hexToken=${token}; expires=${new Date(expired)};`;
                     //登入成功後轉址到新頁面
-                    window.location = '/week2-1.html';
+                    window.location = '../week2-1.html';
                 })
                 //使用 catch 來接收失敗的結果
                 .catch((err) => {
