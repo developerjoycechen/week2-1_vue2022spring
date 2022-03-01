@@ -26,7 +26,7 @@ const app = createApp({
                     })
                     .catch((err) => {
                         alert(err.data.message)
-                        window.location = 'index.html';
+                        window.location = '../index.html';
                     })
         },
         //取得產品列表
